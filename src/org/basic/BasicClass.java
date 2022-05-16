@@ -13,12 +13,16 @@ public class BasicClass {
 		System.out.println("Mul");
 
 	}
+	public void div() {
+		System.out.println("Div");
+	}
 	
 	public static void main(String[] args) {
 		BasicClass b = new BasicClass();
 		b.add();
 		b.sub();
 		b.mul();
+		b.div();
 	}
 	
 	
