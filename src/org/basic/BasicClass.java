@@ -13,8 +13,8 @@ public class BasicClass {
 		System.out.println("Mul");
 
 	}
-	public void div() {
-		System.out.println("Div");
+		public void array() {
+		System.out.println("Array");
 	}
 	
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class BasicClass {
 		b.add();
 		b.sub();
 		b.mul();
-		b.div();
+		b.array();
 	}
 	
 	
